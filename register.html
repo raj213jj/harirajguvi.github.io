@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+         body {
+    background: #654ea3;
+    background: linear-gradient(to right, #e96443, #904e95);
+    min-height: 100vh;
+    overflow-x:hidden;
+}
+    </style>
+</head>
+<body align="center">
+    <label><h1>REGISTRATION  FORM</h1></label>
+    <form id="register-form">
+            <table align="center" cellspacing="10">
+            <tr>
+                <th>First Name</th>
+                <td><input type="text" size="20" maxlength="50"  placeholder="enter first name"id="firstName" name="firstName"></td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td><input type="text" size="20" maxlength="50"  placeholder="enter last name" id="lastName" name="lastName"></td>
+            </tr>
+            <tr>
+                <th>User Name</th>
+                <td><input type="text" size="20" maxlength="50"  placeholder="enter userName" id="userName" name="userName"></td>
+            </tr>
+            <tr>
+                <th>E-Mail</th>
+                <td><input type="email" size="20" maxlength="50"  placeholder="enter email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><input type="password" size="20" maxlength="50"  placeholder="enter password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <th>Confirm Password</th>
+                <td><input type="password" size="20" maxlength="50"  placeholder="re-enter password" id="confirmPassword" name="confirmPassword"></td>
+            </tr>
+            </table>
+            
+            <br>
+            <p id="result"></p>
+            <input type="submit" value="submit" formaction="index.html"><br><br> 
+            Have an account!!<input type="submit" value="Login" formaction="index.html">
+    </form>
+   
+    <script src="js/register.js"></script>
+</body>
+</html>

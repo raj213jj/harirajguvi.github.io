@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+         body {
+    background: #654ea3;
+    background: linear-gradient(to right, #e96443, #904e95);
+    min-height: 100vh;
+    overflow-x:hidden;
+}
+    </style>
+</head>
+<body align="center">
+    <form id="login-form">
+        <label><h1>LOGIN FORM</h1></label>
+        <label>Username:   </label>
+        <input type="text" placeholder="enter username" id="userName" name="userName" size="20" maxlength="50">
+        <br><br>
+        <label>Password: </label>
+        <input type="password" placeholder="enter password" size="20" maxlength="50" id="password" name="password">
+        <br><br>
+        <input type="submit" value="Submit" formaction="profile.html">
+        <br><br>
+         New User?<input type="submit" value="Register" formaction="register.html">
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>
